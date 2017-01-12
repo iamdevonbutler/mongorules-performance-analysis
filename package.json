@@ -1,0 +1,27 @@
+{
+  "name": "node-mongorules-performance-analysis",
+  "version": "0.1.0",
+  "description": "perf testing for mongorules",
+  "main": "index.js",
+  "dependencies": {
+    "babel-core": "^6.21.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.18.0",
+    "co": "^4.6.0",
+    "microtime": "^2.1.2",
+    "mongodb": "^2.2.20",
+    "mongorules": "^0.1.0-alpha1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamdevonbutler/node-mongorules-performance-analysis.git"
+  },
+  "author": "Jay Pescione <jpescione@gmail.com> (https://github.com/iamdevonbutler)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iamdevonbutler/node-mongorules-performance-analysis/issues"
+  },
+  "homepage": "https://github.com/iamdevonbutler/node-mongorules-performance-analysis#readme"
+}
