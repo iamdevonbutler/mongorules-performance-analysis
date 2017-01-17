@@ -4,13 +4,13 @@
   "description": "perf testing for mongorules",
   "main": "index.js",
   "dependencies": {
-    "babel-core": "^6.21.0",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.18.0",
+    "babel-register": "^6.18.0",
     "co": "^4.6.0",
     "microtime": "^2.1.2",
     "mongodb": "^2.2.20",
     "mongoose": "^4.7.6",
-    "mongorules": "^0.1.0-alpha1"
+    "mongorules": "latest"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

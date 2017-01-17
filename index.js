@@ -1,3 +1,6 @@
-require('babel-core/register');
+require('babel-register');
 const co = require('co');
-co(require('./lib/start.js').default).catch(console.log);
+const start = require('./lib/start');
+
+co(start)
+  .catch(console.log);

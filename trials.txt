@@ -1,0 +1,21 @@
+>>> Mongoose              - add user: 1706 ops/sec (1000000 itterations)
+
+>>> Mongorules            - add user: 2267/2287/2308 ops/sec (1000000 itterations)
+>>> Mongorules            - add user: 2427 ops/sec (1000000 itterations) // deconstructPayload() cached
+>>> Mongorules            - add user: 2468 ops/sec (1000000 itterations) // functional validate
+>>> Mongorules            - add user: 2542 ops/sec (1000000 itterations) // decPay cache and functional validate.
+>>> Mongorules            - add user: 2580 ops/sec (1000000 itterations)  // decPay, filterSch and func val
+
+>>> Novalidate mongorules - add user: 2757/2708 ops/sec (1000000 itterations)
+
+>>> Mongo native          - add user: 2902/3052 ops/sec (1000000 itterations)
+
+
+---
+Post proxy file refactor.
+
+>>> Mongorules            - add user: 2139/2346/2357 ops/sec (1000000 itteration)
+
+>>> Novalidate mongorules - add user: 2825/2781 ops/sec (1000000 itterations)
+
+>>> Mongo native          - add user: 2928 ops/sec (1000000 itterations)
