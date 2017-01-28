@@ -9,11 +9,11 @@
     "co": "^4.6.0",
     "microtime": "^2.1.2",
     "mongodb": "^2.2.20",
-    "mongoose": "^4.7.6",
-    "mongorules": "latest"
+    "mongoose": "^4.7.6"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "DEBUG=mongorules node ./index.js"
   },
   "repository": {
     "type": "git",

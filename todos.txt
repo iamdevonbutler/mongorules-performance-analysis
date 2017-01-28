@@ -1,0 +1,1 @@
+- print to readme w/ dyanic graph (ops/sec over #itterations)

@@ -15,7 +15,21 @@
 Post proxy file refactor.
 
 >>> Mongorules            - add user: 2139/2346/2357 ops/sec (1000000 itteration)
-
 >>> Novalidate mongorules - add user: 2825/2781 ops/sec (1000000 itterations)
-
 >>> Mongo native          - add user: 2928 ops/sec (1000000 itterations)
+
+---
+Post validation overhaul
+>>> Mongorules            - add user: 2322/2357 ops/sec (1000000 itterations)
+
+
+2200 is where we are at. want to inc by 300 ops/sec.
+seems like deconstruct payload will cost you 100 ops/sec
+filterSch doesnt seem to take much time.
+setDefaults = 50 ops/sec
+_preprocessFieldValue = 50-75 ops/sec
+reconstruct payload = 50-75
+
+---
+
+2660 1M w/ post refactor!!!
