@@ -1,5 +1,5 @@
 {
-  "name": "node-mongorules-performance-analysis",
+  "name": "mongorules-performance-analysis",
   "version": "0.1.0",
   "description": "perf testing for mongorules",
   "main": "index.js",
@@ -17,12 +17,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iamdevonbutler/node-mongorules-performance-analysis.git"
+    "url": "git+https://github.com/iamdevonbutler/mongorules-performance-analysis.git"
   },
   "author": "Jay Pescione <jpescione@gmail.com> (https://github.com/iamdevonbutler)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/iamdevonbutler/node-mongorules-performance-analysis/issues"
+    "url": "https://github.com/iamdevonbutler/mongorules-performance-analysis/issues"
   },
-  "homepage": "https://github.com/iamdevonbutler/node-mongorules-performance-analysis#readme"
+  "homepage": "https://github.com/iamdevonbutler/mongorules-performance-analysis#readme"
 }
