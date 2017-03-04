@@ -5,7 +5,7 @@ On macbook pro (Retina, 13-inch, Mid 2014):
 
 1 million insert operations w/ validation in series:
 
-Mongo native            - 3080 ops/sec (1000000 itterations)
-Mongorules (novalidate) - 2899 ops/sec (1000000 itterations)
-Mongorules              - 2410 ops/sec (1000000 itterations)
-Mongoose                - 1752 ops/sec (1000000 itterations)
+* Mongo native            - 3080 ops/sec (1000000 itterations)
+* Mongorules (novalidate) - 2899 ops/sec (1000000 itterations)
+* Mongorules              - 2410 ops/sec (1000000 itterations)
+* Mongoose                - 1752 ops/sec (1000000 itterations)
